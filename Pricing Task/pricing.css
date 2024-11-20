@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    letter-spacing: -0.03rem;
+}
+
+.pricing-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #111827;
+    row-gap: 2.5rem;
+    padding: 5rem 4rem 5rem 4rem;
+    color: white;
+    margin: 2rem 0 2rem 0;
+    border-radius: 2rem;
+
+}
+
+.text-container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.price-box-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.tabs{
+    width: fit-content;
+    height: auto;
+    background-color: #29303D;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-price-boxes{
+    width: 100%;
+   height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+ .pricebox{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center ;
+    padding: 2rem;
+    border: 1px solid #29303D;
+    border-radius: 1.5rem;
+    row-gap: 2.5rem;
+
+ }
+
+ .pricebox-popular{
+    width: 33%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start ;
+    padding: 2rem;
+    background-color: #1D2432;
+    border: 1px solid #6366F1;
+    border-radius: 1.5rem;
+    row-gap: 2.5rem;
+ }
+
+ .label{
+    width: fit-content;
+    height: auto;
+    color: #6366F1;
+    font-size: 1.2rem;
+    font-weight: 600;
+ }
+
+ .title-text{
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+ }
+
+ .descrption{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #98A3AF;
+    letter-spacing: 0.094;
+    line-height: 150%;
+    
+ }
+
+ .monthly-tab-outline{
+    width: fit-content;
+    height: auto;
+    border: 1.5px solid white;
+    border-radius: 4rem;
+ }
+
+ .monthly-tab{
+    width: 100%;
+    height: auto;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border: 1.5px solid #111827;
+    background-color: #6366F1;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ .annually-tab{
+    width: fit-content;
+    height: auto;
+    padding: 0rem 1.5rem 0rem 1rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ .pricevalue{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+ }
+
+ .pricevalue-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+ }
+
+ .price-type{
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+ }
+
+ .price-type-p{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+
+ 
+
+ 
+ .most-popular{
+    width: fit-content;
+    height: auto;
+    background-color: #6366F1;
+    border-radius: 1.85rem;
+    padding: .3rem .85rem .3rem .85rem;
+    font-size: .85rem;
+    font-weight: 500;
+
+ }
+
+ .price-description{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #98A3AF;
+    letter-spacing: 0.094;
+    line-height: 150%;
+ }
+
+ .price{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+ }
+
+ .price h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+
+ .price p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #98A3AF;
+    align-self: flex-end;
+ }
+
+ .cta{
+    width: 100%;
+    height: auto;
+ }
+
+ .cta button{
+    width: 100%;
+    height: auto;
+    background-color: #29303D;
+    font-weight: 600;
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+ }
+
+ .cta-popular button{
+    width: 100%;
+    height: auto;
+    background-color: #6366F1;
+    font-weight: 600;
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+ }
+
+ .list-you-get{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+ }
+
+ .list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: .85rem;
+    font-weight: 400;
+    color: #98A3AF;
+ }
